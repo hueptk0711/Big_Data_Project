@@ -1,0 +1,57 @@
+Comment = @JensTimmerman: it's *obligatory* for Python ≤ 2.5 and *optional* (but still valid) for 2.5 &lt; Python &lt; 3.
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Comment = @lambacck: &quot;Other implementations ... have a potential race condition bug.&quot; Since you can't lock the file system, *all* implementations, including this one, have a race condition when considered as part of the code that calls it: another process could delete the directory between you creating it and putting something in it. I think it's best not to worry about such things in the lower level code but have a try block around the higher-level code block to catch them. That's closer to the Python spirit of asking for forgiveness.
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 1
+
+
+Comment = After reading Ricardo's comment about  Øystein Krog's answers (which didnt have any code), i wrote some very basic Python right at the bottom with 0 votes :P
+Comment Sentiment = The comment is POSITIVE as number of positive words are = 1
+
+
+Comment = Can you compile the IronPython into an ActiveX object?  If so, consuming it by C# is a no brainer.
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Comment = I actually receive an UnicodeDecodeError if the path already exists. Is this a bug? Python (2.7) is probably passing the string received from the OS without checking. It probably contains some non-ascii characters, in which case the above exception fails:&#xA;&#xA;UnicodeDecodeError: 'ascii' codec can't decode byte 0xe3 in position 13: ordinal not in range(128)
+Comment Sentiment = The comment is NEGATIVE as number of negative words are = 2
+
+
+Comment = Is Python suitable for scraping the Latin words to a list?
+Comment Sentiment = The comment is POSITIVE as number of positive words are = 1
+
+
+Comment = Thank you! I managed to find those words directly in Terminal, without Python with your code :)
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Comment = This based on Python - how can I distribute this?&#xA;Will this require generating EXE of the python module?
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Comment = This works in the Python GTK+3 API too, as of 9th August of 2017.
+Comment Sentiment = The comment is POSITIVE as number of positive words are = 1
+
+
+Comment = To protect against race conditions, you can [install IPython](https://ipython.org/install.html) and use [IPython.utils.path.ensure_dir_exists()](https://ipython.readthedocs.io/en/stable/api/generated/IPython.utils.path.html#IPython.utils.path.ensure_dir_exists)
+Comment Sentiment = The comment is POSITIVE as number of positive words are = 2
+
+
+Comment = Wayback Machine for [Creating and Consuming IronPython Assemblies](https://web.archive.org/web/20090828232639/http://www.sogeti-phoenix.com/Blogs/post/2008/03/Creating-and-Consuming-IronPython-Assemblies.aspx)
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Comment = Yes, I mean Jython is a JAR. It's a Python interpreter written in Java. Pygments are Python module, which can by interpreted by Jython
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Comment = ah, I missed this and I was wondering why len() is actually still available in Python 3.
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 1
+
+
+Comment = the &quot;b if c else d&quot; can be in ()s because it's an expression. The assignment part (&quot;a = ...&quot;) cannot, because in Python assignment is a statement. In Python, no statement can be in parentheses.
+Comment Sentiment = The comment is NEUTRAL as number of negative and positive words are the same = 0
+
+
+Python is used positively overall
